@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/62579b347f.js" crossorigin="anonymous"></script>
+  <title>Img Download</title>
+  <style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100vw;
+    max-height: auto;
+    background-color: black ;
+    }
+
+  #top{
+    position: sticky;
+    top: 0;
+    color: #1EFF1F;
+    width:100vw;
+    height:10vmax;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+   
+    background-color: black;
+  }
+  #top h1{
+    letter-spacing: 1vmin;
+    font-size:10vmin;
+  }
+  #line{
+    width:70vmin;
+    height:.3vmax;
+    background-color:#1EFF1F;
+    margin-top: 1vmax;
+  }
+  #gallery{
+    box-sizing: border-box;
+    padding: 0 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100vw;
+  }
+  .img{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color:black;
+    margin-top:.5vw;
+    border: .5vw solid #FFED12;
+    }
+    img{
+      height: 75vh;
+      width:auto;
+      object-fit: contain;
+      margin-top: -3vw;
+     
+    }
+    .img a{
+     padding: 3vw;
+    }
+    .img button{
+      height: 5vh;
+      width: 25vw;
+      background-color: greenyellow;
+      border-radius: 2vw;
+    }
+
+  </style>
+
+
+</head>
+
+<body>
+  <div id="top">
+  <h1><i class="fa-solid fa-image"></i>Gallery</h1>
+    <div id="line"></div>
+  </div>
+  <br>
+  <div id="gallery">
+
+    <div class="img">
+      <img src="M01.jpg"
+       <a href="M01.jpg" download><button>Download</button></a>
+    </div>
+
+    <div class="img">
+      <img src="M02.jpg">
+       <a href="M02.jpg" download><button>Download</button></a>
+    </div>
+
+
+    <div class="img">
+      <img src="M03.jpg">
+       <a href="M03.jpg" download><button>Download</button></a>
+    </div>
+
+
+    <div class="img">
+      <img src="M04.jpg">
+       <a href="M04.jpg" download><button>Download</button></a>
+    </div>
+
+
+    <div class="img">
+      <img src="M05.jpg">
+       <a href="M05.jpg" download><button>Download</button></a>
+    </div>
+
+    <div class="img">
+      <img src="M06.jpg">
+       <a href="M06.jpg" download><button>Download</button></a>
+    </div>
+
+    <div class="img">
+      <img src="M07.jpg">
+       <a href="M07.jpg" download><button>Download</button></a>
+    </div>
+
+    <div class="img">
+      <img src="M08.jpg">
+       <a href="M08.jpg" download><button>Download</button></a>
+    </div>
+
+    <div class="img">
+      <img src="M09.jpg">
+       <a href="M09.jpg" download><button>Download</button></a>
+    </div>
+
+    <div class="img">
+      <img src="M10.jpg">
+       <a href="M10.jpg" download><button>Download</button></a>
+    </div>
+    
+  <br>
+  </div>
+</body>
+</html>
